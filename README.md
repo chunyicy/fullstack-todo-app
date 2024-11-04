@@ -21,7 +21,7 @@ https://github.com/user-attachments/assets/539aee69-2c12-4bfd-ac46-6f96cc1b210e
 
 ###  Handle CRUD operations: creating, reading, updating, and deleting To-Do items:
 
-#### Retrieve a list of all Todo items, create a new todo item and the request body should contain a new item details, update an existing todo item by its Id and the request body should contain the updated item details, delete a todo item by its Id.
+#### Retrieve a list of all Todo items, create a new todo item and the request body should contain a new item details, update an existing todo item by its Id (mark task as complete or incomplete), delete a todo item by its Id, delete all tasks.
 
 <br>
 
