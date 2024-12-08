@@ -1,1 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  background-color: white;
+  height: 70px;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.signout-btn {
+  padding: 15px 30px;
+  font-weight: 300;
+  background-color: black;
+  color: white;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: 300;
+}
+h2 {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 10px;
+
+  background-color: lightgray;
+}
+
+.todo-app {
+  width: 100%;
+  max-width: 600px;
+  background-color: rgba(128, 128, 128, 0.418);
+  margin: 100px auto 20px;
+  padding: 40px 40px 100px;
+  border-radius: 10px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  border-radius: 30px;
+  padding-left: 20px;
+  margin-bottom: 25px;
+}
+
+.add-input {
+  flex: 1;
+  outline: none;
+  border: none;
+  padding: 15px;
+  font-weight: 14px;
+}
+
+.add-btn {
+  border: none;
+  outline: none;
+  padding: 16px 50px;
+  background: rgb(173, 216, 220);
+  color: white;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background: lightblue;
+  font-weight: 400;
+}
+#list-container {
+  list-style-type: none;
+  padding: 0 30px;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0; /* Adjust as needed */
+  font-size: 16px;
+}
+
+.task-content {
+  display: flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.637);
+}
+
+.input-checkbox {
+  margin-right: 10px; /* Adjust spacing as needed */
+  width: 20px;
+  height: 45px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  /* Add button styles here */
+  cursor: pointer;
+}
+
+.delete-all {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.delete-all-btn {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+  background: darkgray;
+  color: white;
+}
+
+.delete-all-btn:hover {
+  background-color: rgba(0, 0, 0, 0.637);
+}
 
